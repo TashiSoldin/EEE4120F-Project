@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/pancham-0.5/design/pancham.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pancham
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/pancham-0.5/design/pancham_round.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pancham_round
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
