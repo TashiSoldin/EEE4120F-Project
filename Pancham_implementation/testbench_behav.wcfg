@@ -11,17 +11,17 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="3,379 ps"></ZoomStartTime>
-      <ZoomEndTime time="3,976 ps"></ZoomEndTime>
-      <Cursor1Time time="3,628 ps"></Cursor1Time>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="25.301 ns"></ZoomEndTime>
+      <Cursor1Time time="998.120 ns"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="170"></NameColumnWidth>
-      <ValueColumnWidth column_width="141"></ValueColumnWidth>
+      <NameColumnWidth column_width="157"></NameColumnWidth>
+      <ValueColumnWidth column_width="133"></ValueColumnWidth>
    </column_width_setting>
    <WVObjectSize size="9" />
    <wave_markers>
-      <marker time="3627" label="" />
+      <marker time="3650" label="" />
    </wave_markers>
    <wvobject fp_name="/testbench/clk" type="logic">
       <obj_property name="ElementShortName">clk</obj_property>
@@ -39,7 +39,7 @@
       <obj_property name="ElementShortName">msg[0:172]</obj_property>
       <obj_property name="ObjectShortName">msg[0:172]</obj_property>
       <obj_property name="Radix">ASCIIRADIX</obj_property>
-      <obj_property name="Reversed">false</obj_property>
+      <obj_property name="Reversed">true</obj_property>
    </wvobject>
    <wvobject fp_name="/testbench/p/msg_output" type="array">
       <obj_property name="ElementShortName">msg_output[0:127]</obj_property>

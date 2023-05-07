@@ -4,7 +4,7 @@ Running: E:/Vivado/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug 
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
-WARNING: [VRFC 10-3091] actual bit length 173 differs from formal bit length 128 for port 'msg_in' [C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.srcs/sim_1/new/testbench.v:31]
+WARNING: [VRFC 10-3091] actual bit length 173 differs from formal bit length 128 for port 'msg_in' [C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.srcs/sim_1/new/testbench.v:34]
 Completed static elaboration
 Starting simulation data flow analysis
 WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/pancham-0.5/design/pancham.v" Line 35. Module pancham_default doesn't have a timescale but at least one module in design has a timescale.

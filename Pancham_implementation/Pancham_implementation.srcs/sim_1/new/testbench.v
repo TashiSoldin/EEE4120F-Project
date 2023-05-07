@@ -20,21 +20,25 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
+
 module testbench();
     reg clk;
     parameter clockRate = 0.02;
     //Generate a clock with the above frequency control
-    reg [0:172] msg;
+    reg [172:0] msg;
+    reg [172:0] msg2;
     reg [0:7] width;
     reg val;
     reg reset;
-    pancham p( .clk(clk), .msg_in(msg), .msg_in_width(width),.msg_in_valid(val),.reset(reset));
+    wire rdy;
+    pancham p( .clk(clk), .msg_in(msg), .msg_in_width(width),.msg_in_valid(val),.reset(reset),.ready(rdy));
 
     
     initial
     begin 
     clk = 1'b0;
-    msg = 40'b0110111101101100011011000110010101101000;//b0110100001100101011011000110110001101111;//b0110111101101100011011000110010101101000;//b0110100001100101011011000110110001101111
+    msg = "olleh";//40'b0110111101101100011011000110010101101000;//b0110100001100101011011000110110001101111;//b0110111101101100011011000110010101101000;//b0110100001100101011011000110110001101111
+   // msg = 40'b0;
     width = 40;
     val = 0;
     reset = 1;
@@ -45,7 +49,10 @@ module testbench();
     always 
     begin
         #clockRate clk = ~clk; //Clock Rate of 0.2 gives #1 is one nano second delay (#x controlls the speed)
-        
+//        if (rdy == 1) begin
+//            msg = msg + 1;
+//        end
+            
          
     end
 endmodule
