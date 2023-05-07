@@ -17,3 +17,22 @@ launch_simulation
 open_wave_config {C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/testbench_behav.wcfg}
 source testbench.tcl
 relaunch_sim
+add_files -norecurse {{C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/passwordList.txt}}
+file mkdir C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.srcs/sources_1/new
+file mkdir C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.srcs/sources_1/new
+file mkdir C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.srcs/sources_1/new
+file mkdir C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.srcs/sources_1/new
+file mkdir C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.srcs/sources_1/new
+file mkdir C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.srcs/sources_1/new
+file mkdir {C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.srcs/sources_1/new}
+close [ open {C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.srcs/sources_1/new/fetcher.v} w ]
+add_files {{C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.srcs/sources_1/new/fetcher.v}}
+update_compile_order -fileset sources_1
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+relaunch_sim

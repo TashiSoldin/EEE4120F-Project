@@ -32,7 +32,7 @@ module testbench();
     reg reset;
     wire rdy;
     pancham p( .clk(clk), .msg_in(msg), .msg_in_width(width),.msg_in_valid(val),.reset(reset),.ready(rdy));
-
+    fetcher f(.clk(clk));
     
     initial
     begin 
