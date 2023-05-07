@@ -2,23 +2,16 @@
 # Vivado v2022.2 (64-bit)
 # SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
 # IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
-# Start of session at: Sat May  6 17:04:39 2023
-# Process ID: 1796
+# Start of session at: Sun May  7 12:22:50 2023
+# Process ID: 13084
 # Current directory: C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3400 C:\Users\Admin\OneDrive - University of Cape Town\EEE4120F-Project\Pancham_implementation\Pancham_implementation.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13680 C:\Users\Admin\OneDrive - University of Cape Town\EEE4120F-Project\Pancham_implementation\Pancham_implementation.xpr
 # Log file: C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/vivado.log
 # Journal file: C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation\vivado.jou
 # Running On: Mikhails-PC, OS: Windows, CPU Frequency: 3392 MHz, CPU Physical cores: 4, Host memory: 17057 MB
 #-----------------------------------------------------------
 start_gui
 open_project {C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.xpr}
-INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.gen/sources_1'.
-Scanning sources...
-Finished scanning sources
-WARNING: [Board 49-151] The current board 'digilentinc.com::nexys4_ddr:1.1' is from a local repo. The vivado install has a corresponding board with version greater than or equal to the local repo board. Please use boards from vivado install to avoid any upgrade/migrate issues
-INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1704] No user IP repositories specified
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/Vivado/2022.2/data/ip'.
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at E:/Vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at E:/Vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at E:/Vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
@@ -71,7 +64,14 @@ WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 availab
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at E:/Vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at E:/Vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at E:/Vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
-open_project: Time (s): cpu = 00:00:35 ; elapsed = 00:00:23 . Memory (MB): peak = 1109.004 ; gain = 347.508
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+WARNING: [Board 49-151] The current board 'digilentinc.com::nexys4_ddr:1.1' is from a local repo. The vivado install has a corresponding board with version greater than or equal to the local repo board. Please use boards from vivado install to avoid any upgrade/migrate issues
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/Vivado/2022.2/data/ip'.
+open_project: Time (s): cpu = 00:00:30 ; elapsed = 00:00:23 . Memory (MB): peak = 1089.543 ; gain = 323.844
 update_compile_order -fileset sources_1
 launch_simulation
 Command: launch_simulation 
@@ -87,12 +87,6 @@ INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
 INFO: [USF-XSim-2] XSim::Compile design
 INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.sim/sim_1/behav/xsim'
 "xvlog --incr --relax -prj testbench_vlog.prj"
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/pancham-0.5/design/pancham.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module pancham
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/pancham-0.5/design/pancham_round.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module pancham_round
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.srcs/sim_1/new/testbench.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module testbench
 INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
 INFO: [USF-XSim-3] XSim::Elaborate design
 INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.sim/sim_1/behav/xsim'
@@ -103,100 +97,10 @@ Running: E:/Vivado/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug 
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
-WARNING: [VRFC 10-3091] actual bit length 173 differs from formal bit length 128 for port 'msg_in' [C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.srcs/sim_1/new/testbench.v:33]
-ERROR: [VRFC 10-1219] part-select direction is opposite from prefix index direction [C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.srcs/sim_1/new/testbench.v:40]
-ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
-INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
-INFO: [USF-XSim-99] Step results log file:'C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.sim/sim_1/behav/xsim/elaborate.log'
-ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.sim/sim_1/behav/xsim/elaborate.log' file for more information.
-ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
-launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:11 . Memory (MB): peak = 1119.543 ; gain = 9.316
-ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
-launch_simulation
-Command: launch_simulation 
-INFO: [Vivado 12-12493] Simulation top is 'testbench'
-WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
-WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
-INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.sim/sim_1/behav/xsim'
-INFO: [SIM-utils-51] Simulation object is 'sim_1'
-INFO: [SIM-utils-72] Using boost library from 'E:/Vivado/Vivado/2022.2/tps/boost_1_72_0'
-INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
-INFO: [USF-XSim-97] Finding global include files...
-INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
-INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.sim/sim_1/behav/xsim'
-"xvlog --incr --relax -prj testbench_vlog.prj"
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/pancham-0.5/design/pancham.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module pancham
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/pancham-0.5/design/pancham_round.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module pancham_round
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.srcs/sim_1/new/testbench.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module testbench
-INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
-INFO: [USF-XSim-3] XSim::Elaborate design
-INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.sim/sim_1/behav/xsim'
-"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log"
-Vivado Simulator v2022.2
-Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
-Running: E:/Vivado/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
-Using 2 slave threads.
-Starting static elaboration
-Pass Through NonSizing Optimizer
-WARNING: [VRFC 10-3091] actual bit length 173 differs from formal bit length 128 for port 'msg_in' [C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.srcs/sim_1/new/testbench.v:33]
-ERROR: [VRFC 10-1219] part-select direction is opposite from prefix index direction [C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.srcs/sim_1/new/testbench.v:40]
-ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
-INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
-INFO: [USF-XSim-99] Step results log file:'C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.sim/sim_1/behav/xsim/elaborate.log'
-ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.sim/sim_1/behav/xsim/elaborate.log' file for more information.
-ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
-launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1119.543 ; gain = 0.000
-ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
-launch_simulation
-Command: launch_simulation 
-INFO: [Vivado 12-12493] Simulation top is 'testbench'
-WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
-WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
-INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.sim/sim_1/behav/xsim'
-INFO: [SIM-utils-51] Simulation object is 'sim_1'
-INFO: [SIM-utils-72] Using boost library from 'E:/Vivado/Vivado/2022.2/tps/boost_1_72_0'
-INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
-INFO: [USF-XSim-97] Finding global include files...
-INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
-INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.sim/sim_1/behav/xsim'
-"xvlog --incr --relax -prj testbench_vlog.prj"
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/pancham-0.5/design/pancham.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module pancham
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/pancham-0.5/design/pancham_round.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module pancham_round
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.srcs/sim_1/new/testbench.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module testbench
-INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
-INFO: [USF-XSim-3] XSim::Elaborate design
-INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.sim/sim_1/behav/xsim'
-"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log"
-Vivado Simulator v2022.2
-Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
-Running: E:/Vivado/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
-Using 2 slave threads.
-Starting static elaboration
-Pass Through NonSizing Optimizer
-WARNING: [VRFC 10-3091] actual bit length 173 differs from formal bit length 128 for port 'msg_in' [C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.srcs/sim_1/new/testbench.v:33]
+WARNING: [VRFC 10-3091] actual bit length 173 differs from formal bit length 128 for port 'msg_in' [C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.srcs/sim_1/new/testbench.v:34]
 Completed static elaboration
-Starting simulation data flow analysis
-WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/pancham-0.5/design/pancham.v" Line 35. Module pancham_default doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/pancham-0.5/design/pancham_round.v" Line 39. Module pancham_round doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/pancham-0.5/design/pancham.v" Line 35. Module pancham_default doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/pancham-0.5/design/pancham_round.v" Line 39. Module pancham_round doesn't have a timescale but at least one module in design has a timescale.
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.pancham_round
-Compiling module xil_defaultlib.pancham_default
-Compiling module xil_defaultlib.testbench
-Compiling module xil_defaultlib.glbl
-Built simulation snapshot testbench_behav
-run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 1119.543 ; gain = 0.000
-INFO: [USF-XSim-69] 'elaborate' step finished in '9' seconds
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
 INFO: [USF-XSim-4] XSim::Simulate design
 INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.sim/sim_1/behav/xsim'
 INFO: [USF-XSim-98] *** Running xsim
@@ -215,10 +119,9 @@ source testbench.tcl
 #   }
 # }
 # run 1000ns
-xsim: Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 1176.422 ; gain = 56.879
 INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
 INFO: [USF-XSim-97] XSim simulation ran for 1000ns
-launch_simulation: Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 1176.422 ; gain = 56.879
+launch_simulation: Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1162.176 ; gain = 55.266
 relaunch_sim
 Command: launch_simulation -step compile -simset sim_1 -mode behavioral
 INFO: [Vivado 12-12493] Simulation top is 'testbench'
@@ -230,55 +133,6 @@ INFO: [SIM-utils-72] Using boost library from 'E:/Vivado/Vivado/2022.2/tps/boost
 INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
 INFO: [USF-XSim-97] Finding global include files...
 INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
-INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.sim/sim_1/behav/xsim'
-"xvlog --incr --relax -prj testbench_vlog.prj"
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/pancham-0.5/design/pancham.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module pancham
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/pancham-0.5/design/pancham_round.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module pancham_round
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.srcs/sim_1/new/testbench.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module testbench
-INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
-Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
-INFO: [Vivado 12-12493] Simulation top is 'testbench'
-WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
-WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
-INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.sim/sim_1/behav/xsim'
-INFO: [SIM-utils-51] Simulation object is 'sim_1'
-INFO: [USF-XSim-3] XSim::Elaborate design
-INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.sim/sim_1/behav/xsim'
-"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log"
-Vivado Simulator v2022.2
-Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
-Running: E:/Vivado/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
-Using 2 slave threads.
-Starting static elaboration
-Pass Through NonSizing Optimizer
-WARNING: [VRFC 10-3091] actual bit length 173 differs from formal bit length 128 for port 'msg_in' [C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.srcs/sim_1/new/testbench.v:33]
-Completed static elaboration
-Starting simulation data flow analysis
-WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/pancham-0.5/design/pancham.v" Line 35. Module pancham_default doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/pancham-0.5/design/pancham_round.v" Line 39. Module pancham_round doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/pancham-0.5/design/pancham.v" Line 35. Module pancham_default doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/pancham-0.5/design/pancham_round.v" Line 39. Module pancham_round doesn't have a timescale but at least one module in design has a timescale.
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.pancham_round
-Compiling module xil_defaultlib.pancham_default
-Compiling module xil_defaultlib.testbench
-Compiling module xil_defaultlib.glbl
-Built simulation snapshot testbench_behav
-INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
-Time resolution is 1 ps
-relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:11 . Memory (MB): peak = 1177.609 ; gain = 0.000
-relaunch_sim
-Command: launch_simulation -step compile -simset sim_1 -mode behavioral
-INFO: [Vivado 12-12493] Simulation top is 'testbench'
-WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
-WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
-INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.sim/sim_1/behav/xsim'
-INFO: [SIM-utils-51] Simulation object is 'sim_1'
 INFO: [USF-XSim-2] XSim::Compile design
 INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.sim/sim_1/behav/xsim'
 "xvlog --incr --relax -prj testbench_vlog.prj"
@@ -304,56 +158,8 @@ Running: E:/Vivado/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug 
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
-WARNING: [VRFC 10-3091] actual bit length 173 differs from formal bit length 128 for port 'msg_in' [C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.srcs/sim_1/new/testbench.v:33]
-Completed static elaboration
-Starting simulation data flow analysis
-WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/pancham-0.5/design/pancham.v" Line 35. Module pancham_default doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/pancham-0.5/design/pancham_round.v" Line 39. Module pancham_round doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/pancham-0.5/design/pancham.v" Line 35. Module pancham_default doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/pancham-0.5/design/pancham_round.v" Line 39. Module pancham_round doesn't have a timescale but at least one module in design has a timescale.
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.pancham_round
-Compiling module xil_defaultlib.pancham_default
-Compiling module xil_defaultlib.testbench
-Compiling module xil_defaultlib.glbl
-Built simulation snapshot testbench_behav
-INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
-Time resolution is 1 ps
-relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 1186.910 ; gain = 0.000
-relaunch_sim
-Command: launch_simulation -step compile -simset sim_1 -mode behavioral
-INFO: [Vivado 12-12493] Simulation top is 'testbench'
-WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
-WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
-INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.sim/sim_1/behav/xsim'
-INFO: [SIM-utils-51] Simulation object is 'sim_1'
-INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.sim/sim_1/behav/xsim'
-"xvlog --incr --relax -prj testbench_vlog.prj"
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/pancham-0.5/design/pancham.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module pancham
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/pancham-0.5/design/pancham_round.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module pancham_round
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.srcs/sim_1/new/testbench.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module testbench
-INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
-Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
-INFO: [Vivado 12-12493] Simulation top is 'testbench'
-WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
-WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
-INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.sim/sim_1/behav/xsim'
-INFO: [SIM-utils-51] Simulation object is 'sim_1'
-INFO: [USF-XSim-3] XSim::Elaborate design
-INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.sim/sim_1/behav/xsim'
-"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log"
-Vivado Simulator v2022.2
-Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
-Running: E:/Vivado/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
-Using 2 slave threads.
-Starting static elaboration
-Pass Through NonSizing Optimizer
 WARNING: [VRFC 10-3091] actual bit length 173 differs from formal bit length 128 for port 'msg_in' [C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.srcs/sim_1/new/testbench.v:34]
+WARNING: [VRFC 10-3027] 'msg_in' was previously declared with a different range [C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/pancham-0.5/design/pancham.v:70]
 Completed static elaboration
 Starting simulation data flow analysis
 WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/pancham-0.5/design/pancham.v" Line 35. Module pancham_default doesn't have a timescale but at least one module in design has a timescale.
@@ -367,12 +173,8 @@ Compiling module xil_defaultlib.pancham_default
 Compiling module xil_defaultlib.testbench
 Compiling module xil_defaultlib.glbl
 Built simulation snapshot testbench_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1162.176 ; gain = 0.000
 INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
-launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1186.910 ; gain = 0.000
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1162.176 ; gain = 0.000
 Time resolution is 1 ps
-relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:11 . Memory (MB): peak = 1186.910 ; gain = 0.000
-save_wave_config {C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/testbench_behav.wcfg}
-close_sim
-INFO: [Simtcl 6-16] Simulation closed
-exit
-INFO: [Common 17-206] Exiting Vivado at Sat May  6 18:00:18 2023...
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:11 . Memory (MB): peak = 1162.176 ; gain = 0.000
