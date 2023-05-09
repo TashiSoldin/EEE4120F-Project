@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design" \
+"../../../../Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham.v" \
+"../../../../Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham_round.v" \
+"../../../../Vader0.1.srcs/sources_1/new/supervisor.v" \
+"../../../../Vader0.1.srcs/sources_1/new/Top_Level.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
