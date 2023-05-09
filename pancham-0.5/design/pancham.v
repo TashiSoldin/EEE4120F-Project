@@ -51,7 +51,7 @@ module pancham (
 //--------------------------------
 input          clk;                      // input clock
 input          reset;                    // global reset
-input  [0:127] msg_in;                   // input message, max width = 128 bits
+input  [127:0] msg_in;                   // input message, max width = 128 bits
 input    [0:7] msg_in_width;             // actual input message width
 input          msg_in_valid;             // input message is valid, active high
                                        

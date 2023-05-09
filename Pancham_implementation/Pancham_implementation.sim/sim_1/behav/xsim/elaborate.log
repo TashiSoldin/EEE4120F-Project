@@ -1,0 +1,24 @@
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: E:/Vivado/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 173 differs from formal bit length 128 for port 'msg_in' [C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.srcs/sim_1/new/testbench.v:34]
+WARNING: [VRFC 10-3027] 'msg_in' was previously declared with a different range [C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/pancham-0.5/design/pancham.v:70]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/pancham-0.5/design/pancham.v" Line 35. Module pancham_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/pancham-0.5/design/pancham_round.v" Line 39. Module pancham_round doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/pancham-0.5/design/pancham.v" Line 35. Module pancham_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/pancham-0.5/design/pancham_round.v" Line 39. Module pancham_round doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.pancham_round
+Compiling module xil_defaultlib.pancham_default
+Compiling module xil_defaultlib.testbench
+WARNING: [XSIM 43-3373] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.srcs/sim_1/new/testbench.v" Line 55. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf().
+WARNING: [XSIM 43-3373] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.srcs/sim_1/new/testbench.v" Line 73. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf().
+WARNING: [XSIM 43-3373] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Pancham_implementation/Pancham_implementation.srcs/sim_1/new/testbench.v" Line 76. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf().
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
