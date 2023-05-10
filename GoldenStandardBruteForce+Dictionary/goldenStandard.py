@@ -18,12 +18,10 @@ def bruteForce(hashedWord):
                 found = True
                 break
             lineNum += 1
-
         return found
 
 
 def dictionaryAttack(hashedWord):
-
     with open("dictionaryPasswordList.txt", "r", encoding='utf-8', errors='ignore') as passwords:
         lineNum = 1
         found = False
@@ -60,7 +58,6 @@ def csvWrite(dictTimes, bruteTimes):
 
 
 def main():
-
     dictTimes = []
     bruteTimes = []
 
