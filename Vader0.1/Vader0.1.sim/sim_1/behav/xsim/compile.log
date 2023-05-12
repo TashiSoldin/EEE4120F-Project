@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pancham
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham_round.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pancham_round
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/new/supervisor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module supervisor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/new/Top_Level.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top_Level
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
