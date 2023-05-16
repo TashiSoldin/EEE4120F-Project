@@ -2,21 +2,16 @@
 # Vivado v2022.2 (64-bit)
 # SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
 # IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
-# Start of session at: Fri May 12 13:15:13 2023
-# Process ID: 4032
+# Start of session at: Tue May 16 10:23:21 2023
+# Process ID: 10716
 # Current directory: C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11208 C:\Users\Admin\OneDrive - University of Cape Town\EEE4120F\EEE4120F-Project\Vader0.1\Vader0.1.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8124 C:\Users\Admin\OneDrive - University of Cape Town\EEE4120F\EEE4120F-Project\Vader0.1\Vader0.1.xpr
 # Log file: C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/vivado.log
 # Journal file: C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1\vivado.jou
 # Running On: Mikhails-PC, OS: Windows, CPU Frequency: 3392 MHz, CPU Physical cores: 4, Host memory: 17057 MB
 #-----------------------------------------------------------
 start_gui
 open_project {C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.xpr}
-INFO: [Project 1-313] Project file moved from 'C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Vader0.1' since last save.
-INFO: [filemgmt 56-1] Board Part Repository Path: Directory not found as 'C:/Users/Admin/OneDrive - University of Cape Town/AppData/Roaming/Xilinx/Vivado/2022.2/xhub/board_store/xilinx_board_store'; using path 'C:/Users/Admin/AppData/Roaming/Xilinx/Vivado/2022.2/xhub/board_store/xilinx_board_store' instead.
-INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.gen/sources_1'.
-Scanning sources...
-Finished scanning sources
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at E:/Vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at E:/Vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at E:/Vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
@@ -69,17 +64,75 @@ WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 availab
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at E:/Vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at E:/Vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at E:/Vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
 WARNING: [Board 49-151] The current board 'digilentinc.com::nexys4_ddr:1.1' is from a local repo. The vivado install has a corresponding board with version greater than or equal to the local repo board. Please use boards from vivado install to avoid any upgrade/migrate issues
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/Vivado/2022.2/data/ip'.
-open_project: Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1071.848 ; gain = 318.305
+open_project: Time (s): cpu = 00:00:38 ; elapsed = 00:00:32 . Memory (MB): peak = 1083.742 ; gain = 316.566
 update_compile_order -fileset sources_1
-export_ip_user_files -of_objects  [get_files {{C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/Pancham_implementation/Pancham_implementation.srcs/sources_1/new/passwords.mem}}] -no_script -reset -force -quiet
-remove_files  {{C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/Pancham_implementation/Pancham_implementation.srcs/sources_1/new/passwords.mem}}
-file delete -force {C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/Pancham_implementation/Pancham_implementation.srcs/sources_1/new/passwords.mem}
-launch_simulation
-Command: launch_simulation 
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue May 16 10:25:38 2023...
+ulation top is 'Top_Level'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Vivado/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'Top_Level' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Top_Level_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Top_Level_behav xil_defaultlib.Top_Level xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: E:/Vivado/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Top_Level_behav xil_defaultlib.Top_Level xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3027] 'msg_in' was previously declared with a different range [C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham.v:70]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Top_Level_behav -key {Behavioral:sim_1:Functional:Top_Level} -tclbatch {Top_Level.tcl} -view {{C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Top_Level_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config {C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Top_Level_behav.wcfg}
+WARNING: Simulation object /Top_Level/s2/reset was not found in the design.
+WARNING: Simulation object /Top_Level/s2/msg was not found in the design.
+source Top_Level.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000us
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run: Time (s): cpu = 00:00:17 ; elapsed = 00:00:15 . Memory (MB): peak = 1136.613 ; gain = 21.281
+INFO: [Common 17-344] 'run' was cancelled
+INFO: [Common 17-344] 'source' was cancelled
+xsim: Time (s): cpu = 00:00:23 ; elapsed = 00:00:19 . Memory (MB): peak = 1136.613 ; gain = 42.203
+INFO: [Common 17-344] 'xsim' was cancelled
+INFO: [Vivado 12-5357] 'simulate' step aborted
+launch_simulation: Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 1136.613 ; gain = 42.203
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+relaunch_sim
+INFO: xsimkernel Simulation Memory Usage: 16488 KB (Peak: 16488 KB), Simulation CPU Usage: 10780 ms
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
 INFO: [Vivado 12-12493] Simulation top is 'Top_Level'
 WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
 WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
@@ -100,9 +153,14 @@ INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/OneDrive - Universit
 INFO: [VRFC 10-311] analyzing module supervisor
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/new/Top_Level.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module Top_Level
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module glbl
-INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1139.086 ; gain = 0.000
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'Top_Level'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
 INFO: [USF-XSim-3] XSim::Elaborate design
 INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.sim/sim_1/behav/xsim'
 "xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Top_Level_behav xil_defaultlib.Top_Level xil_defaultlib.glbl -log elaborate.log"
@@ -119,6 +177,22 @@ WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE41
 WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham_round.v" Line 39. Module pancham_round doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham.v" Line 35. Module pancham_default doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham_round.v" Line 39. Module pancham_round doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham.v" Line 35. Module pancham_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham_round.v" Line 39. Module pancham_round doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham.v" Line 35. Module pancham_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham_round.v" Line 39. Module pancham_round doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham.v" Line 35. Module pancham_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham_round.v" Line 39. Module pancham_round doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham.v" Line 35. Module pancham_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham_round.v" Line 39. Module pancham_round doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham.v" Line 35. Module pancham_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham_round.v" Line 39. Module pancham_round doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham.v" Line 35. Module pancham_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham_round.v" Line 39. Module pancham_round doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham.v" Line 35. Module pancham_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham_round.v" Line 39. Module pancham_round doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham.v" Line 35. Module pancham_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham_round.v" Line 39. Module pancham_round doesn't have a timescale but at least one module in design has a timescale.
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
 Compiling module xil_defaultlib.pancham_round
@@ -127,28 +201,100 @@ Compiling module xil_defaultlib.supervisor
 Compiling module xil_defaultlib.Top_Level
 Compiling module xil_defaultlib.glbl
 Built simulation snapshot Top_Level_behav
-run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 1119.270 ; gain = 0.000
-INFO: [USF-XSim-69] 'elaborate' step finished in '9' seconds
-INFO: [USF-XSim-4] XSim::Simulate design
-INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.sim/sim_1/behav/xsim'
-INFO: [USF-XSim-98] *** Running xsim
-   with args "Top_Level_behav -key {Behavioral:sim_1:Functional:Top_Level} -tclbatch {Top_Level.tcl} -view {{C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Top_Level_behav.wcfg}} -log {simulate.log}"
-INFO: [USF-XSim-8] Loading simulator feature
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1139.086 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1139.086 ; gain = 0.000
 Time resolution is 1 ps
-open_wave_config {C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Top_Level_behav.wcfg}
-source Top_Level.tcl
-# set curr_wave [current_wave_config]
-# if { [string length $curr_wave] == 0 } {
-#   if { [llength [get_objects]] > 0} {
-#     add_wave /
-#     set_property needs_save false [current_wave_config]
-#   } else {
-#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
-#   }
-# }
-# run 1us
-Password found to be a9BE
-xsim: Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 1168.367 ; gain = 49.098
-INFO: [USF-XSim-96] XSim completed. Design snapshot 'Top_Level_behav' loaded.
-INFO: [USF-XSim-97] XSim simulation ran for 1us
-launch_simulation: Time (s): cpu = 00:00:11 ; elapsed = 00:00:22 . Memory (MB): peak = 1168.367 ; gain = 49.098
+Password found to be McxT
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run: Time (s): cpu = 00:00:07 ; elapsed = 00:00:16 . Memory (MB): peak = 1148.020 ; gain = 8.934
+INFO: [Common 17-344] 'run' was cancelled
+INFO: [Common 17-344] 'source' was cancelled
+relaunch_xsim_kernel: Time (s): cpu = 00:00:07 ; elapsed = 00:00:17 . Memory (MB): peak = 1148.020 ; gain = 8.934
+INFO: [Common 17-344] 'relaunch_xsim_kernel' was cancelled
+INFO: [Common 17-344] 'relaunch_sim' was cancelled
+run 1000 us
+run: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1177.680 ; gain = 0.000
+relaunch_sim
+INFO: xsimkernel Simulation Memory Usage: 16716 KB (Peak: 16716 KB), Simulation CPU Usage: 22734 ms
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'Top_Level'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Top_Level_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pancham
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham_round.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pancham_round
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/new/supervisor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module supervisor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/new/Top_Level.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top_Level
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'Top_Level'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Top_Level_behav xil_defaultlib.Top_Level xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: E:/Vivado/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Top_Level_behav xil_defaultlib.Top_Level xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3027] 'msg_in' was previously declared with a different range [C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham.v:70]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham.v" Line 35. Module pancham_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham_round.v" Line 39. Module pancham_round doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham.v" Line 35. Module pancham_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham_round.v" Line 39. Module pancham_round doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham.v" Line 35. Module pancham_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham_round.v" Line 39. Module pancham_round doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham.v" Line 35. Module pancham_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham_round.v" Line 39. Module pancham_round doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham.v" Line 35. Module pancham_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham_round.v" Line 39. Module pancham_round doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham.v" Line 35. Module pancham_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham_round.v" Line 39. Module pancham_round doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham.v" Line 35. Module pancham_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham_round.v" Line 39. Module pancham_round doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham.v" Line 35. Module pancham_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham_round.v" Line 39. Module pancham_round doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham.v" Line 35. Module pancham_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham_round.v" Line 39. Module pancham_round doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham.v" Line 35. Module pancham_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/imports/EEE4120F-Project/pancham-0.5/design/pancham_round.v" Line 39. Module pancham_round doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.pancham_round
+Compiling module xil_defaultlib.pancham_default
+Compiling module xil_defaultlib.supervisor
+Compiling module xil_defaultlib.Top_Level
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Top_Level_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1177.680 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1177.680 ; gain = 0.000
+Time resolution is 1 ps
+Password found to be AaaQ
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run: Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 1177.680 ; gain = 0.000
+INFO: [Common 17-344] 'run' was cancelled
+INFO: [Common 17-344] 'source' was cancelled
+relaunch_xsim_kernel: Time (s): cpu = 00:00:02 ; elapsed = 00:00:14 . Memory (MB): peak = 1177.680 ; gain = 0.000
+INFO: [Common 17-344] 'relaunch_xsim_kernel' was cancelled
+INFO: [Common 17-344] 'relaunch_sim' was cancelled
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 16660 KB (Peak: 16660 KB), Simulation CPU Usage: 12343 ms
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue May 16 10:55:39 2023...

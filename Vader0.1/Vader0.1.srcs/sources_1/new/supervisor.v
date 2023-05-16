@@ -4,9 +4,9 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module supervisor( input clk
+module supervisor( input clk, input [7:0] sASCI1, input [7:0] sASCI2, input [7:0] sASCI3, input [7:0] sASCI4,
     
-    );
+    output [31:0] hashes_completed);
     
     reg [127:0] msg;
     //reg [127:0] msg_out;
@@ -17,6 +17,9 @@ module supervisor( input clk
     wire rdy;
     wire [127:0] msg_out;
     wire msg_out_valid;
+    
+    reg [31:0] count;
+    
     // Stuff for brute force method
     integer i;
     integer j;
@@ -45,7 +48,8 @@ module supervisor( input clk
     pancham p1( .clk(clk), .msg_in(msg), .msg_output(msg_out), .msg_in_width(width),.msg_in_valid(val),.reset(reset),.ready(rdy), .msg_out_valid(msg_out_valid)); //.msg_output(msg_out),
     
     initial begin
-        target_hash = 128'h13aad5860139a22c6dd6d1304a2a0ec9;
+        count = 0;
+        target_hash = 128'he7246975075027a780cca9f41d97b648;
         val = 0;
         reset = 1;
         width = 32;
@@ -53,23 +57,27 @@ module supervisor( input clk
 //        m2 = "a";
 //        m3 = "a";
 //        m4 = "a";
-        i = "a";
-        j = "9";
-        k = "9";
-        z = "a";
+        i = sASCI1 -1;
+        j = sASCI2 ;
+        k = sASCI3 ;
+        z = sASCI4 ;
         m1 = i;
         m2 = j;
         m3 = k;
         m4 = z;
         
         assign msg = {m1, m2, m3, m4};
+        
         #10
         reset = 0;
         val = 1;
         
     end
     
+    assign hashes_completed = count;
+    
     always @ (posedge msg_out_valid) begin
+    count <= count + 1;
     // Hey password found
         if (msg_out == target_hash) begin
             reset <= 1;
