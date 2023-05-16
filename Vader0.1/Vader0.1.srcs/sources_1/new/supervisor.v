@@ -49,7 +49,7 @@ module supervisor( input clk, input [7:0] sASCI1, input [7:0] sASCI2, input [7:0
     
     initial begin
         count = 0;
-        target_hash = 128'he7246975075027a780cca9f41d97b648;
+        target_hash = 128'hce1b09ae5ec7956ffa96bda839fe50c7;
         val = 0;
         reset = 1;
         width = 32;
@@ -57,14 +57,18 @@ module supervisor( input clk, input [7:0] sASCI1, input [7:0] sASCI2, input [7:0
 //        m2 = "a";
 //        m3 = "a";
 //        m4 = "a";
-        i = sASCI1 -1;
-        j = sASCI2 ;
-        k = sASCI3 ;
-        z = sASCI4 ;
+        i = sASCI1;
+        j = sASCI2;
+        k = sASCI3;
+        z = sASCI4;
         m1 = i;
-        m2 = j;
+        if (i == "9") ad = 1;
+        m2 = j;  
+        if (j == "9") bd = 1;
         m3 = k;
+        if (k == "9") cd = 1;
         m4 = z;
+        if (z == "9") dd = 1;
         
         assign msg = {m1, m2, m3, m4};
         
@@ -89,9 +93,8 @@ module supervisor( input clk, input [7:0] sASCI1, input [7:0] sASCI2, input [7:0
         //first go through small letters
         // BEGIN BRUTE FORCE SEQUENCE:
         if (!ad) begin
-        
-            
-            i = i +1; // Blocking maybe
+       
+            i <= i +1; // Blocking maybe
             m1 <= i;
             
             if(i == "z") i <= "A";

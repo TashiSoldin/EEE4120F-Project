@@ -13,16 +13,34 @@ module Top_Level();
     
     wire [31:0] hashes_c;
     //supervisor s1(.clk(clk), .sASCI1("A"), .sASCI2("a"), .sASCI3("a"), .sASCI4("A"),.hashes_completed(hashes_c));
-    parameter N = 20;
+    parameter N = 4;
     reg [20:0] mem [31:0];
     
     
     genvar i;
-    generate 
-        for (i = 0; i < N;  i = i + 1) begin
-            supervisor s1(.clk(clk), .sASCI1("a"), .sASCI2("a"), .sASCI3("a"), .sASCI4("D"));
-        end   
-    endgenerate 
+    
+    generate
+        if (N == 1)
+            supervisor s1(.clk(clk), .sASCI1("a"), .sASCI2("a"), .sASCI3("a"), .sASCI4("a"));
+            
+        else if (N ==2)   begin
+            supervisor s1(.clk(clk), .sASCI1("a"), .sASCI2("a"), .sASCI3("a"), .sASCI4("a"));
+            supervisor s2(.clk(clk), .sASCI1("9"), .sASCI2("9"), .sASCI3("9"), .sASCI4("E"));
+            end
+        
+        else if (N == 4) begin
+            supervisor s1(.clk(clk), .sASCI1("a"), .sASCI2("a"), .sASCI3("a"), .sASCI4("a"));
+            supervisor s2(.clk(clk), .sASCI1("9"), .sASCI2("9"), .sASCI3("E"), .sASCI4("P"));
+            supervisor s3(.clk(clk), .sASCI1("9"), .sASCI2("9"), .sASCI3("9"), .sASCI4("E"));
+            supervisor s4(.clk(clk), .sASCI1("9"), .sASCI2("9"), .sASCI3("E"), .sASCI4("U"));     
+            end  
+    endgenerate
+    
+//    generate 
+//        for (i = 0; i < N;  i = i + 1) begin
+//            supervisor s1(.clk(clk), .sASCI1("a"), .sASCI2("a"), .sASCI3("a"), .sASCI4("D"));
+//        end   
+//    endgenerate 
     //supervisor s2(.clk(clk), .sASCI1("E"), .sASCI2("8"), .sASCI3("b"), .sASCI4("D"));
     //supervisor s3(.clk(clk), .sASCI1("K"), .sASCI2("8"), .sASCI3("b"), .sASCI4("H"));
     //supervisor s4(.clk(clk), .sASCI1("I"), .sASCI2("8"), .sASCI3("b"), .sASCI4("L"));

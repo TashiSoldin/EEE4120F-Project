@@ -1,4 +1,2 @@
 Time resolution is 1 ps
-WARNING: File password_starter.mem referenced on C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.srcs/sources_1/new/supervisor.v at line 77 cannot be opened for reading. Please ensure that this file is available in the current working directory.
-ÿ
-INFO: xsimkernel Simulation Memory Usage: 17356 KB (Peak: 17356 KB), Simulation CPU Usage: 16499 ms
+INFO: xsimkernel Simulation Memory Usage: 16592 KB (Peak: 16592 KB), Simulation CPU Usage: 30436 ms
