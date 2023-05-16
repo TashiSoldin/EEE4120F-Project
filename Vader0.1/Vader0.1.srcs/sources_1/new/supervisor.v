@@ -4,6 +4,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
+<<<<<<< HEAD
 module supervisor( input clk, input [7:0] sASCI1, input [7:0] sASCI2, input [7:0] sASCI3, input [7:0] sASCI4,
     
     output [31:0] hashes_completed);
@@ -11,10 +12,18 @@ module supervisor( input clk, input [7:0] sASCI1, input [7:0] sASCI2, input [7:0
     reg [127:0] msg;
     //reg [127:0] msg_out;
     reg [127:0] target_hash;
+=======
+module supervisor( input clk
+    
+    );
+    
+    reg [127:0] msg;
+>>>>>>> pancham_implementation
     reg [0:7] width;
     reg val;
     reg reset;
     wire rdy;
+<<<<<<< HEAD
     wire [127:0] msg_out;
     wire msg_out_valid;
     
@@ -25,6 +34,12 @@ module supervisor( input clk, input [7:0] sASCI1, input [7:0] sASCI2, input [7:0
     integer j;
     integer k;
     integer z;
+=======
+    
+    integer i;
+    integer j;
+    integer k;
+>>>>>>> pancham_implementation
     
     integer  a;
     reg ad = 0;
@@ -45,6 +60,7 @@ module supervisor( input clk, input [7:0] sASCI1, input [7:0] sASCI2, input [7:0
     reg [7:0] m4;
     
     // Call its pancham module
+<<<<<<< HEAD
     pancham p1( .clk(clk), .msg_in(msg), .msg_output(msg_out), .msg_in_width(width),.msg_in_valid(val),.reset(reset),.ready(rdy), .msg_out_valid(msg_out_valid)); //.msg_output(msg_out),
     
     initial begin
@@ -68,12 +84,31 @@ module supervisor( input clk, input [7:0] sASCI1, input [7:0] sASCI2, input [7:0
         
         assign msg = {m1, m2, m3, m4};
         
+=======
+    pancham p1( .clk(clk), .msg_in(msg), .msg_in_width(width),.msg_in_valid(val),.reset(reset),.ready(rdy));
+    
+    initial begin
+        
+        val = 0;
+        reset = 1;
+        width = 40;
+        m1 = "a";
+        m2 = "a";
+        m3 = "a";
+        m4 = "a";
+        i = "a";
+        j = "a";
+        k = "a";
+        
+        assign msg = {m1, m2, m3, m4};
+>>>>>>> pancham_implementation
         #10
         reset = 0;
         val = 1;
         
     end
     
+<<<<<<< HEAD
     assign hashes_completed = count;
     
     always @ (posedge msg_out_valid) begin
@@ -93,6 +128,14 @@ module supervisor( input clk, input [7:0] sASCI1, input [7:0] sASCI2, input [7:0
             
             i = i +1; // Blocking maybe
             m1 <= i;
+=======
+    always @ (posedge rdy) begin
+        //first go through small letters
+        if (!ad) begin
+        
+            m1 <= i;
+            i <= i +1;
+>>>>>>> pancham_implementation
             
             if(i == "z") i <= "A";
             if(i == "Z") i <= "1";
@@ -104,8 +147,13 @@ module supervisor( input clk, input [7:0] sASCI1, input [7:0] sASCI2, input [7:0
         
         else if (!bd) begin
             ad <= 0;
+<<<<<<< HEAD
             j <= j+1;
             m2 <= j;
+=======
+            m2 <= j;
+            j <= j+1;
+>>>>>>> pancham_implementation
             if(j == "z") j <= "A";
             if(j == "Z") j <= "1";
             if(j == "9") begin
@@ -116,7 +164,10 @@ module supervisor( input clk, input [7:0] sASCI1, input [7:0] sASCI2, input [7:0
         end
         else if (!cd) begin
             bd <= 0;
+<<<<<<< HEAD
             k <= k+1;
+=======
+>>>>>>> pancham_implementation
             m3 <= k;
             k <= k+1;
             if(k == "z") k <= "A";
@@ -129,6 +180,7 @@ module supervisor( input clk, input [7:0] sASCI1, input [7:0] sASCI2, input [7:0
         end
         else if (!dd) begin
         
+<<<<<<< HEAD
             cd <= 0;
             m4 <= z;
             z <= z+1;
@@ -140,6 +192,8 @@ module supervisor( input clk, input [7:0] sASCI1, input [7:0] sASCI2, input [7:0
             end
         
         // END OF BRUTE FORCE SEQUENCE     
+=======
+>>>>>>> pancham_implementation
         end
     end
 endmodule

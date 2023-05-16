@@ -3,7 +3,11 @@
 <!--                                                         -->
 <!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.   -->
 
+<<<<<<< HEAD
 <Project Version="7" Minor="61" Path="C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F/EEE4120F-Project/Vader0.1/Vader0.1.xpr">
+=======
+<Project Version="7" Minor="61" Path="C:/Users/Admin/OneDrive - University of Cape Town/EEE4120F-Project/Vader0.1/Vader0.1.xpr">
+>>>>>>> pancham_implementation
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="6becb957aea04684a924184c074b76f1"/>
@@ -42,9 +46,14 @@
     <Option Name="SimulatorGccVersionVCS" Val="9.2.0"/>
     <Option Name="SimulatorGccVersionRiviera" Val="9.3.0"/>
     <Option Name="SimulatorGccVersionActiveHdl" Val="9.3.0"/>
+<<<<<<< HEAD
     <Option Name="SimulatorLanguage" Val="Verilog"/>
     <Option Name="BoardPart" Val="digilentinc.com:nexys4_ddr:part0:1.1"/>
     <Option Name="BoardPartRepoPaths" Val="$PPRDIR/../../../../AppData/Roaming/Xilinx/Vivado/2022.2/xhub/board_store/xilinx_board_store"/>
+=======
+    <Option Name="BoardPart" Val="digilentinc.com:nexys4_ddr:part0:1.1"/>
+    <Option Name="BoardPartRepoPaths" Val="$PPRDIR/../../../AppData/Roaming/Xilinx/Vivado/2022.2/xhub/board_store/xilinx_board_store"/>
+>>>>>>> pancham_implementation
     <Option Name="ActiveSimSet" Val="sim_1"/>
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
     <Option Name="ProjectType" Val="Default"/>
@@ -60,7 +69,11 @@
     <Option Name="IPStaticSourceDir" Val="$PIPUSERFILESDIR/ipstatic"/>
     <Option Name="EnableBDX" Val="FALSE"/>
     <Option Name="DSABoardId" Val="nexys4_ddr"/>
+<<<<<<< HEAD
     <Option Name="WTXSimLaunchSim" Val="158"/>
+=======
+    <Option Name="WTXSimLaunchSim" Val="19"/>
+>>>>>>> pancham_implementation
     <Option Name="WTModelSimLaunchSim" Val="0"/>
     <Option Name="WTQuestaLaunchSim" Val="0"/>
     <Option Name="WTIesLaunchSim" Val="0"/>
@@ -132,10 +145,17 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+<<<<<<< HEAD
       <File Path="$PSRCDIR/sources_1/imports/EEE4120F-Project/passwords_starter.mem">
         <FileInfo>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../EEE4120F-Project/passwords_starter.mem"/>
           <Attr Name="ImportTime" Val="1684231930"/>
+=======
+      <File Path="$PSRCDIR/sources_1/imports/EEE4120F-Project/Pancham_implementation/Pancham_implementation.srcs/sources_1/new/passwords.mem">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Pancham_implementation/Pancham_implementation.srcs/sources_1/new/passwords.mem"/>
+          <Attr Name="ImportTime" Val="1683620498"/>
+>>>>>>> pancham_implementation
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
@@ -144,7 +164,10 @@
         <Option Name="DesignMode" Val="RTL"/>
         <Option Name="TopModule" Val="Top_Level"/>
         <Option Name="TopAutoSet" Val="TRUE"/>
+<<<<<<< HEAD
         <Option Name="dataflowViewerSettings" Val="min_width=16"/>
+=======
+>>>>>>> pancham_implementation
       </Config>
     </FileSet>
     <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
@@ -154,12 +177,16 @@
       </Config>
     </FileSet>
     <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1" RelGenDir="$PGENDIR/sim_1">
+<<<<<<< HEAD
       <Filter Type="Srcs"/>
+=======
+>>>>>>> pancham_implementation
       <File Path="$PPRDIR/Top_Level_behav.wcfg">
         <FileInfo>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+<<<<<<< HEAD
       <File Path="$PSRCDIR/sim_1/imports/EEE4120F-Project/passwords_starter.mem">
         <FileInfo>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../EEE4120F-Project/passwords_starter.mem"/>
@@ -176,6 +203,8 @@
           <Attr Name="IsVisible" Val="1"/>
         </FileInfo>
       </File>
+=======
+>>>>>>> pancham_implementation
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
         <Option Name="TopModule" Val="Top_Level"/>
@@ -190,7 +219,10 @@
         <Option Name="PamPseudoTop" Val="pseudo_tb"/>
         <Option Name="SrcSet" Val="sources_1"/>
         <Option Name="XSimWcfgFile" Val="$PPRDIR/Top_Level_behav.wcfg"/>
+<<<<<<< HEAD
         <Option Name="xsim.simulate.runtime" Val="1000us"/>
+=======
+>>>>>>> pancham_implementation
       </Config>
     </FileSet>
     <FileSet Name="utils_1" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
@@ -221,7 +253,13 @@
   <Runs Version="1" Minor="19">
     <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7a100tcsg324-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="true" WriteIncrSynthDcp="false" State="current" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/synth_1">
       <Strategy Version="1" Minor="2">
+<<<<<<< HEAD
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
+=======
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+>>>>>>> pancham_implementation
         <Step Id="synth_design"/>
       </Strategy>
       <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2022"/>
@@ -230,7 +268,13 @@
     </Run>
     <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7a100tcsg324-1" ConstrsSet="constrs_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" SynthRun="synth_1" IncludeInArchive="true" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/impl_1">
       <Strategy Version="1" Minor="2">
+<<<<<<< HEAD
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
+=======
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
+>>>>>>> pancham_implementation
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>

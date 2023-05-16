@@ -9,6 +9,7 @@
 
 module Top_Level();
     reg clk;
+<<<<<<< HEAD
     parameter clockRate = 0.002;
     
     wire [31:0] hashes_c;
@@ -30,6 +31,16 @@ module Top_Level();
     
     initial begin
         clk = 1'b0;
+=======
+    parameter clockRate = 0.02;
+    
+    supervisor s1(.clk(clk));
+    
+    initial begin
+        clk = 1'b0;
+        
+        
+>>>>>>> pancham_implementation
         // Need to call supervisors
         
     end 

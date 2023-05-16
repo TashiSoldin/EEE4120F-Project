@@ -8,4 +8,8 @@ if { [string length $curr_wave] == 0 } {
   }
 }
 
+<<<<<<< HEAD
 run 1000us
+=======
+run 1000ns
+>>>>>>> pancham_implementation

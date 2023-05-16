@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Running: xsim.dir/Top_Level_behav/xsimk.exe -simmode gui -wdb Top_Level_behav.wdb -simrunnum 0 -socket 50951
 Design successfully loaded
 Design Loading Memory Usage: 8296 KB (Peak: 8296 KB)
@@ -5,3 +6,12 @@ Design Loading CPU Usage: 62 ms
 Simulation completed
 Simulation Memory Usage: 17356 KB (Peak: 17356 KB)
 Simulation CPU Usage: 16499 ms
+=======
+Running: xsim.dir/Top_Level_behav/xsimk.exe -simmode gui -wdb Top_Level_behav.wdb -simrunnum 0 -socket 52888
+Design successfully loaded
+Design Loading Memory Usage: 7184 KB (Peak: 7184 KB)
+Design Loading CPU Usage: 46 ms
+Simulation completed
+Simulation Memory Usage: 15900 KB (Peak: 15900 KB)
+Simulation CPU Usage: 4655 ms
+>>>>>>> pancham_implementation
