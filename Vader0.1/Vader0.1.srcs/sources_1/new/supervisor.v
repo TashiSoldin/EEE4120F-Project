@@ -10,7 +10,7 @@ module supervisor( input clk, input [7:0] sASCI1, input [7:0] sASCI2, input [7:0
     
     reg [127:0] msg;
     //reg [127:0] msg_out;
-    reg [127:0] target_hash;
+    reg [127:0] target_hash = 128'hce1b09ae5ec7956ffa96bda839fe50c7;
     reg [0:7] width;
     reg val;
     reg reset;
@@ -18,7 +18,7 @@ module supervisor( input clk, input [7:0] sASCI1, input [7:0] sASCI2, input [7:0
     wire [127:0] msg_out;
     wire msg_out_valid;
     
-    reg [31:0] count;
+    reg [31:0] count = 0;
     
     // Stuff for brute force method
     integer i;
@@ -43,6 +43,8 @@ module supervisor( input clk, input [7:0] sASCI1, input [7:0] sASCI2, input [7:0
     reg [7:0] m2;
     reg [7:0] m3;
     reg [7:0] m4;
+    
+    
     
     // Call its pancham module
     pancham p1( .clk(clk), .msg_in(msg), .msg_output(msg_out), .msg_in_width(width),.msg_in_valid(val),.reset(reset),.ready(rdy), .msg_out_valid(msg_out_valid)); //.msg_output(msg_out),
@@ -91,6 +93,7 @@ module supervisor( input clk, input [7:0] sASCI1, input [7:0] sASCI2, input [7:0
     
     always @ (posedge rdy) begin
         //first go through small letters
+        msg = {m1, m2, m3, m4};
         // BEGIN BRUTE FORCE SEQUENCE:
         if (!ad) begin
        

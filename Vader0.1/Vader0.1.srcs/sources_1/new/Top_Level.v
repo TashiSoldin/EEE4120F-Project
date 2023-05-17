@@ -14,7 +14,6 @@ module Top_Level();
     wire [31:0] hashes_c;
     //supervisor s1(.clk(clk), .sASCI1("A"), .sASCI2("a"), .sASCI3("a"), .sASCI4("A"),.hashes_completed(hashes_c));
     parameter N = 4;
-    reg [20:0] mem [31:0];
     
     
     genvar i;
@@ -48,7 +47,7 @@ module Top_Level();
     
     initial begin
         clk = 1'b0;
-        // Need to call supervisors
+        
         
     end 
     
