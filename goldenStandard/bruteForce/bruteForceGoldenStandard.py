@@ -1,6 +1,9 @@
 from hashlib import md5
+import time
 
-passwordToCrack = "poes"
+start = time.time()
+
+passwordToCrack = "9999"
 hashedPasswordToCrack = md5(passwordToCrack.encode('utf-8')).hexdigest()
 
 with open("bruteForcePasswordList.txt", "r") as passwords:
@@ -11,4 +14,8 @@ with open("bruteForcePasswordList.txt", "r") as passwords:
 
         if lineHashed == hashedPasswordToCrack:
             print("Found a match!\nLine Number: "+str(lineNum)+"\nHash: "+lineHashed+"\n"+"Plain text: "+line)
+            break
         lineNum += 1
+
+end = time.time()
+print("Time: "+str(end - start)+"s")
