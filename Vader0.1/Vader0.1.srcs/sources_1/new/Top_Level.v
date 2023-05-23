@@ -9,11 +9,11 @@
 
 module Top_Level();
     reg clk;
-    parameter clockRate = 0.002;
+    parameter clockRate = 0.00125;
     
     wire [31:0] hashes_c;
     //supervisor s1(.clk(clk), .sASCI1("A"), .sASCI2("a"), .sASCI3("a"), .sASCI4("A"),.hashes_completed(hashes_c));
-    parameter N = 4;
+    parameter N = 2;
     
     
     genvar i;

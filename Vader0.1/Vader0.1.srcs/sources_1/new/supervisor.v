@@ -10,7 +10,7 @@ module supervisor( input clk, input [7:0] sASCI1, input [7:0] sASCI2, input [7:0
     
     reg [127:0] msg;
     //reg [127:0] msg_out;
-    reg [127:0] target_hash = 128'hce1b09ae5ec7956ffa96bda839fe50c7;
+    reg [127:0] target_hash;
     reg [0:7] width;
     reg val;
     reg reset;
@@ -51,7 +51,7 @@ module supervisor( input clk, input [7:0] sASCI1, input [7:0] sASCI2, input [7:0
     
     initial begin
         count = 0;
-        target_hash = 128'hce1b09ae5ec7956ffa96bda839fe50c7;
+        target_hash = 128'he5658da67331d5f8a2c8f88aca04352f;
         val = 0;
         reset = 1;
         width = 32;
@@ -87,7 +87,11 @@ module supervisor( input clk, input [7:0] sASCI1, input [7:0] sASCI2, input [7:0
     // Hey password found
         if (msg_out == target_hash) begin
             reset <= 1;
+            $display("---------------------------------------------------------");
+            $display("");
             $display("Password found to be %c%c%c%c", m4, m3, m2, m1);
+            $display("");
+            $display("---------------------------------------------------------");
         end
     end
     
